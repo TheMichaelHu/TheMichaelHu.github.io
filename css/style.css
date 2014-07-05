@@ -1,0 +1,42 @@
+html {
+	background-color: #d0d0d0
+}
+
+h1 {
+	font-family: "Verdana";
+	text-align: center;
+	font-size: 100;
+}
+
+p {
+	font-family: "Verdana";
+	text-align: center;
+}
+
+#menu {
+	list-style-type: none;
+     margin-bottom: 15;
+    background-color: #90a959;
+    text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+    padding: 5;
+}
+
+#menu li a {
+	display: inline-block;
+    padding: 5;
+    width: 150;
+    text-decoration: none;
+	color: #151515;
+}
+
+#menu li a:hover {
+	background-color: #a0b969;
+}
+
+#main {
+	margin: auto;
+}
