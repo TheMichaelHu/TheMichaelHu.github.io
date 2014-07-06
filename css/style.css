@@ -1,42 +1,61 @@
+/* General */
 html {
-	background-color: #d0d0d0
-}
-
-h1 {
+	min-width: 800;
 	font-family: "Verdana";
-	text-align: center;
-	font-size: 100;
 }
 
-p {
-	font-family: "Verdana";
-	text-align: center;
+/* Section styles */
+#header {
+	width: 100%;
+	height: 5%;
+	border-bottom: 1px solid #ccc
 }
 
-#menu {
-	list-style-type: none;
-     margin-bottom: 15;
-    background-color: #90a959;
-    text-align: center;
+#header #logo {
+	padding: 2px 5px;
 }
 
-#menu li {
-	display: inline-block;
-    padding: 5;
+#header #logo a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 25;
+	font-weight: bold;
 }
 
-#menu li a {
-	display: inline-block;
-    padding: 5;
-    width: 150;
-    text-decoration: none;
+#header #nav {
+	float: right;
+	list-style: none;
+	width: 75%;
+	margin: 0 0 3em 0;
+	padding: 0;
+}
+
+#header #nav li a {
+	font-family: "Times New Roman";
+	float: right;
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
 	color: #151515;
 }
 
-#menu li a:hover {
+#content {
+	width: 100%;
+	padding-left: 8px;
+	margin-top: 3%;
+}
+
+#info {
+	position:absolute;
+	left: 0;
+	bottom:0;
+	width:100%;
+	height:3%;
 	background-color: #a0b969;
 }
 
-#main {
-	margin: auto;
+#info p {
+	margin-top: 7px;
+	margin-left: 7px;
 }
