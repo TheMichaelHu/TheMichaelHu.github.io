@@ -1,13 +1,23 @@
 /* General */
 html {
-	min-width: 800;
+	min-width: 900;
+	min-height: 800;
 	font-family: "Verdana";
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #708939;
 }
 
 /* Section styles */
 #header {
 	width: 100%;
-	height: 5%;
+	height: 42px;
 	border-bottom: 1px solid #ccc
 }
 
@@ -20,6 +30,10 @@ html {
 	color: #000000;
 	font-size: 25;
 	font-weight: bold;
+}
+
+#header #logo a:hover {
+	color: #a0b969;
 }
 
 #header #nav {
@@ -43,16 +57,18 @@ html {
 #content {
 	width: 100%;
 	padding-left: 8px;
-	margin-top: 3%;
+	margin-top: 50px;
 }
 
 #info {
-	position:absolute;
+	position:fixed;
 	left: 0;
 	bottom:0;
 	width:100%;
-	height:3%;
+	height:30px;
 	background-color: #a0b969;
+	font-weight: bold;
+	text-align: center;
 }
 
 #info p {
