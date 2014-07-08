@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="shortcut icon" href="img/logo.png">
-		<title>Michael Hu</title>
+		<title>Michael Hu | Contact</title>
 	</head>
 	<body>
 		<div id="header">
@@ -19,8 +19,15 @@
 			</div>
 		</div>
 		<div id="content">
-			<h1 style="text-align:center">Welcome to my Incomplete Site</h1>
-			<p>I'm a Computer Science major at Northeastern University. This site is under contruction because I have better things to do right now. Check out what you can...it's not much yet.</p>
+			<div id="form">
+				<h1>Send me a thing!</h1>
+				<form action="php/email.php" method = "post">
+					<input type = "text" name="vname" value="" placeholder="Name"/>
+					<input type = "text" name="vemail" value="" placeholder="Email Address"/>
+					<textarea name="msg" placeholder="Type message here"></textarea>
+					<input type="submit" name="submit" value="Send"/>
+				</form>
+			</div>
 		</div>
 		<div id="info">
 			<p>Copyright 2014 Michael Hu | All Rights Reserved</p>
