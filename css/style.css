@@ -2,7 +2,7 @@
 body {
     margin:0;
     padding:0;
-    min-width: 900;
+    min-width: 950;
 	min-height: 800;
 	font-family: "Verdana";
 	background-color: #f5f5f5;
@@ -11,7 +11,6 @@ body {
 
 /* Section styles */
 #header {
-	width: 100%;
 	height: 42px;
 	border-bottom: 1px solid #ccc;
 	background-color: #ffffff;
@@ -37,7 +36,6 @@ body {
 	list-style: none;
 	width: 75%;
 	margin: 0 0 3em 0;
-	padding: 0;
 }
 
 #header #nav li a {
@@ -55,26 +53,30 @@ body {
 }
 
 #content {
+	clear: both;
 	margin: auto;
 	width: 925px;
 	padding-left: 8px;
-	margin-top: 50px;
 }
 
 #info {
 	opacity: .85;
 	width:100%;
-	position: fixed;
+	position:absolute;
 	bottom:20px;
-	padding: 5px;
+	padding-top: 5px;
 	border-top: 1px solid #ccc;
-	background-color: #ffffff;
 	font-size: 12;
+	background-color: #ffffff;
 }
 
 #info #columns {
 	margin: auto;
-	width: 925px;
+	margin-top: -6px;
+	background-color: #ffffff;
+	border-top: 1px solid #ccc;
+	width: 950px;
+	height: 100px;
 }
 
 #info #other {
@@ -86,11 +88,12 @@ body {
 	float:left;
     width:200px;
     padding: 5px;
+    padding-left: 10px;
 }
 
 #info #social img {
 	margin-top: 35px;
-	padding-left: 31px;
+	padding-left: 39px;
 	width: 25px;
 	height: 25px;
 }
@@ -112,7 +115,6 @@ body {
 #footer {
 	opacity:.85;
 	position:fixed;
-	left: 0;
 	bottom:0;
 	width:100%;
 	height:20px;
