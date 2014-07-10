@@ -74,14 +74,14 @@ a:hover {
 	padding-bottom: 150px;
 }
 
-@media handheld {
+@media only screen {
 	#content {
 		clear: both;
 		margin: auto;
 		width: 800px;
 		padding-left: 50px;
 		margin-top: 360px;
-		font-size: 8px;
+		font-size: 11px;
 		padding-bottom: 150px;
 	}
 }
