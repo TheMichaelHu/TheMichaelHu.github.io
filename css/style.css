@@ -74,18 +74,6 @@ a:hover {
 	padding-bottom: 150px;
 }
 
-@media only screen {
-	#content {
-		clear: both;
-		margin: auto;
-		width: 800px;
-		padding-left: 50px;
-		margin-top: 360px;
-		font-size: 11px;
-		padding-bottom: 150px;
-	}
-}
-
 #info {
 	opacity: .85;
 	width:100%;
@@ -147,4 +135,16 @@ a:hover {
 	margin-top: 3px;
 	margin-left: 7px;
 	font-size: 12px;
+}
+
+@media only screen and (max-device-width: 480px) {
+	#content {
+		clear: both;
+		margin: auto;
+		width: 800px;
+		padding-left: 50px;
+		margin-top: 360px;
+		font-size: 11px;
+		padding-bottom: 150px;
+	}
 }
