@@ -4,7 +4,6 @@ body {
     padding:0;
     min-width: 930;
 	min-height: 800;
-	/*font-family: "Verdana";*/
 	font-family: "trebuchet ms";
 	background-color: #f5f5f5;
 	color: #151515;
@@ -21,6 +20,14 @@ a:hover {
 
 .rightColumn {
 	float: right;
+}
+
+::selection {
+	background:#c0d989;
+}
+
+::-moz-selection {
+	background:#c0d989;
 }
 
 /* Section styles */
@@ -53,7 +60,6 @@ a:hover {
 }
 
 #header #nav li a {
-	/*font-family: "Times New Roman";*/
 	float: right;
 	display: block;
 	padding: 8px 15px;
@@ -61,7 +67,7 @@ a:hover {
 }
 
 #header img {
-	margin-top: -42px;
+	margin-top: -45px;
 	border-bottom: 1px solid #ccc;
 }
 
