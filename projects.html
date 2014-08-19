@@ -20,8 +20,57 @@
 			</div>
 		</div>
 		<div id="content">
-			<h1>I do a lot of cool stuff</h1>
-			<p>I'm also a compulsive liar.</p>
+			<h1>Pinyinify</h1>
+			<p>This is a Google Chrome extension I made that that traverses the DOM of web pages I visit and replaces any Chinese characters with their phonetically spelled-out equivalents(pinyin). Chrome extensions use JSON to organize information about the extension and javascript for most everything else.</p>
+			<center><img src="img/pinyinify2.jpg" style="width:30%"/></center>
+			<p>I originally intended to use some sort of API to do the translation from Chinese characters to pinyin but Google charges money to use theirs and the few others I found only offered translation to other languages. I ended up downloading the entirety of the <a href="http://www.unicode.org/reports/tr38/">Unihan database</a> and making a parser to grab only Chinese characters and their corresponding unicodes. If you look in the <a href="https://github.com/TheMichaelHu/pinyinify">source code</a> you'll find it's far from elegant, but it actually runs faster with everything stored locally and can even run in offline mode.</p>
+			<p>My extension can be found in the <a href="https://chrome.google.com/webstore/detail/ilgkgfbgiempllndljggnmblmcajbcee">Chrome Store</a>.</p>
+			<center><img src="img/pinyinify.jpg" style="width:65%"/></center>
+
+			<h1>Playlstr</h1>
+			<p>Playlstr is an online playlist webapp hosted on Heroku. I worked on its developement along with four other Northeastern students at <a href="http://hackbeanpot.com/">HackBeanpot</a> 2014. The app was built using Node.js and uses Youtube and SoundCloud API to produce results for the string the client searches for. Using the <a href="http://playlstr.herokuapp.com/user">user page</a>, clients can queue up songs for the playlist which can then be listened to on the <a href="http://playlstr.herokuapp.com/listener">listener page</a>. Searching a string will produce two lists for the client to choose from: most viewed Youtube videos from that search and most popular SoundCloud songs.</p>
+			<center><img src="img/playlstr.jpg"/></center>
+			<p>This app is only meant to support one listener at a time, although in theory it's possible to have multiple listeners without cross-contamination. This app also works as a song sharing site, clients would queue up songs they want to share with strangers on the user page and then listen to a random song from somebody else on the listener page.</p>
+			<p>My role in the team consisted of helping design the app, researching how each API would be integrated, and designing the website's background image so that it would have the same theme as Disney's Frozen(because why not).</p>
+			<p>The source code for Playlstr can be found <a href="https://github.com/tomxhu/playlistmaker">here</a>.</p>
+
+			<h1>Server-based Games</h1>
+			<p>For Fundamentals of Computer Science II, we used the Racket Universe library to design and create games that could be played by two clients over a server. Two player Pong was rather easy because of the simplicity of the game's rules. The clients each controlled the position of the paddle while the server handled the ball's position and making sure the paddles weren't cheating be moving too fast.</p>
+			<center><img src="img/pong.jpg"/></center>
+			<p>Checkers was a lot more difficult because of more complicated rules such as turns, king me's, and multiple jumps. To prevent cheating, every move a player made had to be checked and approved by the server before it became official.</p>
+			<center><img src="img/checkers.jpg"/></center>
+			<p>Because these projects may be recycled in following years, I've chosen not to share the source code.</p>
+
+			<h1>Space Invaders</h1>
+			<p>Also for Fundamentals of Computer Science II, a classmate and I designed our own full-featured version of Space Invaders using Java.</p>
+			<center><img src="img/spaceInvaders.jpg"/></center>
+			<p>These features include:</p>
+			<ul>
+				<li>Score, lives, levels</li>
+				<li>Aliens that take multiple hits</li>
+				<li>A shooting player and aliens that shoot back</li>
+				<li>Defences</li>
+				<li>Powerups(speed+, multi-shot) and bonuses(ufo)</li>
+				<li>Authentic alien movement</li>
+			</ul>
+			<p>Obviously some of these features are not canon, those features are improvements.</p>
+			<center><img src="img/spaceInvaders2.jpg"/></center>
+			<p>Because these projects may be recycled in following years, I've chosen not to share the source code.</p>
+
+			<h1>Frisbee Trajectory/Machine Vision</h1>
+			<p>On my robotics team, I spent some time working on Machine Vision. During the 2013 season, robots were tasked with launching frisbees through rectangular goals lined with retro-reflective fabric. Using data from the robot and <a href="http://scripts.mit.edu/~womens-ult/frisbee_physics.pdf">an MIT paper on frisbee physics</a>, I wrote a java app to predict the trajectory of a frisbee launched from our robot.</p>
+			<center><img src="img/diskSim.jpg"/></center>
+			<p>Also, using API from a program called <a href="http://www.roborealm.com/">RoboRealm</a> we were able to get the measurements of a target goal as seen from the camera mounted on the robot. Using known constants such as the height and angle of the camera, the camera's field of view, robot's location, and field measurements in conjunction with the data from RoboRealm, we were able to get the camera's distance from the target goal with an error of a few inches.</p>
+			<center><img src="img/diskSim2.jpg"/></center>
+			<p>Knowing the distance from the goal and the launcher's angle provided suffcient information to calculate the necessary velocity for a frisbee to be scored.</p>
+
+			<h1>Website Design</h1>
+			<p>I've worked with a few sites before. The one pictured below is from my days as the webmaster of my school's robotics team. Right now I'm on the team working on the website for the <a href="http://www.ecaasu.org/site/">ECASSU</a> conference to be held in Boston in 2015. 
+			<center><img src="img/website.jpg"/></center>
+
+			<h1>Graphic Design</h1>
+			<p>For graphic design work I do a lot of self portraits for fun/personal use. Freshman year of college I was part of Northeastern's <a href="http://nucsa.org/">Chinese Student Association</a>'s eboard as its media specialist where, amoung other things, I was tasked with designing all the posters for CSA's events.</p>
+			<center><img src="img/poster.jpg"/></center>
 		</div>
 		<div id="info">
 			<div id="columns">

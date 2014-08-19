@@ -14,6 +14,10 @@ a {
 	color: #151515;
 }
 
+#content a {
+	color: #555555;
+}
+
 a:hover {
 	color: #90a959;
 }
