@@ -14,11 +14,15 @@ a {
 	color: #151515;
 }
 
+a:hover {
+	color: #90a959;
+}
+
 #content a {
 	color: #555555;
 }
 
-a:hover {
+#content a:hover {
 	color: #90a959;
 }
 
@@ -96,6 +100,14 @@ a:hover {
 	overflow-x: auto;
 }
 
+#info a {
+	color: #555555;
+}
+
+#info a:hover {
+	color: #90a959;
+}
+
 #info #columns {
 	margin: auto;
 	width: 925px;
@@ -124,6 +136,7 @@ a:hover {
     padding: 5px;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+    font-size: 18px;
 }
 
 #info #contact {
