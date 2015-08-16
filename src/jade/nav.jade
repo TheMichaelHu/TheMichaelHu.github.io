@@ -1,0 +1,40 @@
+//- nav.navbar.navbar-default.navbar-fixed-top
+//-   .container
+//-     .collapse.navbar-collapse
+//-         row.text-center.nav
+//-           .col-xs-2
+//-           .col-xs-2.tab
+//-             a(href='/#about') About
+//-           .col-xs-2.tab
+//-             a(href='/#resume') Resume
+//-           .col-xs-2.tab
+//-             a(href='/#projects') Projects
+//-           .col-xs-2.tab
+//-             a(href='/#contact') Contact
+//-           .col-xs-2
+
+nav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+      .navbar-collapse.collapse
+          ul.text-center.nav.navbar-nav
+            li
+              a(href='#about') About
+            li
+              a(href='#resume') Résumé
+            li
+              a(href='#projects') Projects
+            li
+              a(href='#contact') Contact
+      .btn-group
+        button(type="button" class="btn btn-default dropdown-toggle" 
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+          i.fa.fa-bars.fa-lg
+        ul.dropdown-menu.pull-right
+          li
+            a(href='#about') About
+          li
+            a(href='#resume') Résumé
+          li
+            a(href='#projects') Projects
+          li
+            a(href='#contact') Contact
