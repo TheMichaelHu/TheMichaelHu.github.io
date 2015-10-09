@@ -20,7 +20,7 @@ a:hover {
 	text-decoration: none;
 }
 
-h1, h3 {
+h1, h3, h4 {
 	font-family: 'Droid Serif', serif;
 }
 
@@ -33,6 +33,11 @@ h2 {
 h3 {
 	font-size: 15px;
 	color: #a1b56c;
+}
+
+h4 {
+	font-size: 25px;
+	margin-top: 50px;
 }
 
 section {
@@ -146,7 +151,7 @@ nav .btn-group button, nav .btn-group button:hover {
 }
 
 #about a:hover {
-	color:#a1b56c;
+	color:#a1b56c;;
 }
 
 #resume {
@@ -160,6 +165,15 @@ nav .btn-group button, nav .btn-group button:hover {
 #projects {
 	background-color: #181818;
 	color: #f8f8f8;
+}
+
+#projects .thumbnail {
+	background-color: #a1b56c;
+	padding:0;
+}
+
+#projects .thumbnail img{
+	padding:0;
 }
 
 #projects a {

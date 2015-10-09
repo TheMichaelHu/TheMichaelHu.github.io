@@ -2,6 +2,8 @@ var shiftWindow = function() { scrollBy(0, -50) };
 if (location.hash) shiftWindow();
 
 $(document).ready(function(e) {
+    
+	// Autoscrolling
     $("a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
@@ -13,6 +15,7 @@ $(document).ready(function(e) {
 		});
 	});
 
+    // Typing animation on cover
     $(function(){
 	    $("#coverText").typed({
 	      strings: ["Software Delvoper","veloper"],
@@ -28,5 +31,13 @@ $(document).ready(function(e) {
 	      //   });
 	      // }
 	    });
+	});
+
+    // Project thumbnail hover
+	$(document).delegate('#projects .thumbnail img', 'mouseover', function() {
+   		$(this).fadeTo(300, .5);
+	});
+	$(document).delegate('#projects .thumbnail img', 'mouseout', function() {
+   		$(this).fadeTo(300, 1);
 	});
 });

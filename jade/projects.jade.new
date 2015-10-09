@@ -1,0 +1,42 @@
+section.sectionContent
+  .container
+    center
+      h1 
+        b Projects
+    h4
+      b Personal/Hackathon
+    .row
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300').img-rounded
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+    h4
+      b Orgainizations
+    .row
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+    h4
+      b Academic
+    .row
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+      .col-xs-6.col-md-4.col-lg-4
+        .thumbnail
+          img(src='http://placehold.it/400x300')
+      
