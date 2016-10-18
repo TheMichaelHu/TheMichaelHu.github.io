@@ -1,0 +1,9 @@
+<div tabindex="-1" role="dialog" aria-labelledby="BLAHH" class="modal fade pinyinifyModal"><div role="document" class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button><div class="modal-title"><h1>Pinyinify</h1></div></div><div class="modal-body"><p>This is a Google Chrome extension I made that that traverses the DOM of web pages I visit and replaces 
+any Chinese characters with their phonetically spelled-out equivalents(pinyin). Chrome extensions use 
+JSON to organize information about the extension and javascript for most everything else.</p><center><img src="img/pinyinify2.jpg" style="width:30%"/></center><p>I originally intended to use some sort of API to do the translation from Chinese characters to pinyin 
+but Google charges money to use theirs and the few others I found only offered translation to other 
+languages. I ended up downloading the entirety of the <a href="http://www.unicode.org/reports/tr38/" target="_blank"> 
+Unihan database</a> and making a parser to grab only Chinese characters and their corresponding unicodes. If you look in the <a href="https://github.com/TheMichaelHu/pinyinify" target="_blank"> 
+source code</a> you'll find it's far from elegant, but it actually runs faster with everything stored locally and can 
+even run in offline mode.</p><p>My extension can be found in the <a href="https://chrome.google.com/webstore/detail/ilgkgfbgiempllndljggnmblmcajbcee" target="_blank"> 
+Chrome Store</a>.</p><center><img src="img/pinyinify.jpg" style="width:65%"/></center></div><div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-default">Close</button></div></div></div></div>

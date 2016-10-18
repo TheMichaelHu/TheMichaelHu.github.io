@@ -34,10 +34,10 @@ $(document).ready(function(e) {
 	});
 
     // Project thumbnail hover
-	$(document).delegate('#projects .thumbnail img', 'mouseover', function() {
-   		$(this).fadeTo(300, .5);
-	});
-	$(document).delegate('#projects .thumbnail img', 'mouseout', function() {
-   		$(this).fadeTo(300, 1);
-	});
+	// $(document).delegate('#projects .thumbnail img', 'mouseover', function() {
+ //   		$(this).fadeTo(300, .5);
+	// });
+	// $(document).delegate('#projects .thumbnail img', 'mouseout', function() {
+ //   		$(this).fadeTo(300, 1);
+	// });
 });

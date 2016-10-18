@@ -1,0 +1,9 @@
+<div tabindex="-1" role="dialog" aria-labelledby="BLAHH" class="modal fade frisbeeTrajectoryModal"><div role="document" class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button><div class="modal-title"><h1>Frisbee Trajectory with Machine Vision</h1></div></div><div class="modal-body"><p>On my robotics team, I spent some time working on Machine Vision. During the 2013 season, robots were 
+tasked with launching frisbees through rectangular goals lined with retro-reflective fabric. Using data 
+from the robot and <a href="http://scripts.mit.edu/~womens-ult/frisbee_physics.pdf" target="_blank"> 
+an MIT paper on frisbee physics</a>, I wrote a java app to predict the trajectory of a frisbee launched from our robot.</p><center><img src="img/diskSim.jpg"/></center><p>Also, using API from a program called <a href="http://www.roborealm.com/" target="_blank"> 
+RoboRealm</a> we were able to get the measurements of a target goal as seen from the camera mounted on the robot. 
+Using known constants such as the height and angle of the camera, the camera's field of view, robot's 
+location, and field measurements in conjunction with the data from RoboRealm, we were able to get the 
+camera's distance from the target goal with an error of a few inches.</p><center><img src="img/diskSim2.jpg"/></center><p>Knowing the distance from the goal and the launcher's angle provided suffcient information to calculate 
+the necessary velocity for a frisbee to be scored.</p></div><div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-default">Close</button></div></div></div></div>
